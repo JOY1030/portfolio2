@@ -1,0 +1,14 @@
+$white: #fbefdf;
+
+.footer{
+    width: 100%;
+    padding: 20px 80px;
+    position: absolute;
+    color: $white;
+    bottom: 50px;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+
+}

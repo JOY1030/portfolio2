@@ -1,0 +1,14 @@
+@import '/assets/scss/abstract/mixins';
+
+@include desktop{
+    .sc-intro{
+        font-size: 20px;s
+        .study-card{
+            right: 0;
+            background-color: #fff;
+            color: #eee;
+        }
+    }
+}
+@include tablet{}
+@include mobile{}

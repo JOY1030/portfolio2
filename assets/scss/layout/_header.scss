@@ -1,0 +1,42 @@
+
+$color:#1a4737;
+
+.header{
+    margin-bottom: 120px;
+    font-weight: 500;
+    .header-top{
+        position: relative;
+        width: 100%;
+        font-family: var(--font-serif);
+        display: flex;
+        justify-content: space-between;
+        color:$color;
+        font-size: 140px;
+        // letter-spacing: -.03em;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        overflow: hidden;
+        span{
+            flex: 1;
+        }
+        // .bar{
+        //     width:100%;
+        //     position: absolute;
+        //     bottom: 0;
+        //     left: 0;
+        //     height: 1px;
+        //     background-color: $color;
+        // }
+    }
+    .header-bottom{
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 15px;
+        overflow: hidden;
+         > *{
+            transform: translateY(-100%);
+            opacity: 0;
+         }
+    }
+}
